@@ -1,0 +1,89 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.container {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px; /* Optional - add a maximum width to prevent the container from becoming too wide on large screens */
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+@media (max-width: 767px) {
+  table {
+    border: none;
+  }
+}
+
+th {
+  background-color: #ccc;
+  font-weight: bold;
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+@media (max-width: 767px) {
+  .btn {
+    font-size: 12px; /* Adjust the font-size as needed */
+  }
+}
+
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+
+@media (max-width: 767px) {
+  body {
+    font-size: 16px; /* Adjust the font-size as needed */
+  }
+  .container {
+    padding: 10px; /* Adjust the padding as needed */
+  }
+}
